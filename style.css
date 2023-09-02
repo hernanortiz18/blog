@@ -1,0 +1,49 @@
+body {
+    margin-top: 59px;
+    background-color: rgba(248, 255, 248, 1);
+    size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    position: fixed;
+    margin-top: -59px;
+    width: 100%;
+    background-color: rgba(42, 141, 42, .8);
+    padding: 10px;
+}
+
+nav li{
+    font-size: 12px;
+    margin: auto;
+    display: inline-flex;
+    align-self: center;
+    background-color: rgba(21, 97, 21, 1);
+    border-radius: 12px;
+    width: 18%;
+}
+
+nav li a{ 
+    width: ;
+    display: inline-flex;
+    text-decoration: none;
+    color: rgba(248, 255, 248, 1);
+    text-align: center;
+    margin: auto;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+h2 {
+    text-align: left;
+    font-size: 1.5em;
+}
